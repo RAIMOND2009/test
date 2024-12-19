@@ -1,18 +1,48 @@
 import streamlit as st
+from pathlib import Path
+
+st.markdown("<style> .stAppHeader {display:none;} ul {list-style-type: none; } </style>", unsafe_allow_html=True)
+
+
+def get_file_content_as_bytes(file_path):
+    with open(file_path, "rb") as file:
+        return file.read()
+
+# Pfad zur PDF-Datei
+file_path = 'test.pdf'
+
+# Lese den Inhalt der PDF-Datei als Bytes
+file_bytes = get_file_content_as_bytes(file_path)
 
 left, right = st.columns(2)
 
-left.image("image.jpg")
-right.header("Raimond Stevie")
+left.image("profile-pic (1).png", width=250)
+with right:
+    right.markdown("""
+               <h3>Raimond Stevie</h3>
+               <br>
+               <em>Ich bin davon überzeugt, dass IT die Welt ändern wird
+               und ich möchte ein teil davon sein.</em>
+               """, unsafe_allow_html=True)
+
+
+    st.download_button(
+        label="📄 Download Lebenslauf",
+        data=file_bytes,
+        file_name=file_path,
+        mime='application/pdf'
+    )
+    st.write("📩", "raimond.stevie@gmx.at")
+        
 
 st.header("IT-Kompetenzen", anchor=False, divider="blue")
 
 st.markdown("""
             - 💻Webentwicklung: Grundkenntnisse in HTML, CSS und Python
-            - 💻Programmierung: Praktische Erfahrung in Python, Entwicklung kleiner Anwendungen und Skripte
-            - 💻Office-Suite: Versierter Umgang mit Microsoft Word, Excel und PowerPoint
-            - 💻Eigene Projekte: Konzeption und Umsetzung verschiedener Projekte inklusive Hosting
-            - 💻Schulprojekte: Erstellung datenbasierter Präsentationen und interaktiver Tabellenkalkulationen
+            - 💻Programmierung: Websiten erstellen, basic tools kennen
+            - 💻Office-Apps: guter Umgang mit Microsoft Word, Excel und PowerPoint
+            - 💻Eigene Projekte: Eigene Websiten erstellen, programiersprachen ausprobieren
+            - 💻Schulprojekte: Präsentationen erstellen, Streamlit benützen
             """,unsafe_allow_html=True)
 
 st.header("Arbeitserfahrung", anchor=False, divider="blue")
