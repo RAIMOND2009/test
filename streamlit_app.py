@@ -57,8 +57,8 @@ st.header("Zusätzliche Qualifikationen", anchor=False, divider="blue")
 
 st.markdown("""
             - 🌟Schnelle Auffassungsgabe für neue Softwareanwendungen und Technologien.
-            - 🌟Großes Interesse an der kontinuierlichen Weiterentwicklung im IT-Bereich.
-            - 🌟Teamfähigkeit und Kommunikationsstärke bei gemeinsamen Coding-Projekten.
+            - 🌟Großes Interesse an der fortlaufenden Weiterentwicklung im IT-Bereich.
+            - 🌟Teamfähigkeit und Kommunikationsstärke bei Coding-Projekten.
         """, unsafe_allow_html=True)
 
 st.header("Interessen und Hobbys", anchor=False, divider="blue")
@@ -66,5 +66,5 @@ st.header("Interessen und Hobbys", anchor=False, divider="blue")
 st.markdown("""
             - ⚽ Fußball: In meiner Freitzeit.
             - 🏀 Basketball: In meiner Freitzeit.
-            - 🎮 Video Spiele: In meiner Freitzeit.
+            - 🎮 Video-Spiele: In meiner Freitzeit.
          """,unsafe_allow_html=True)
