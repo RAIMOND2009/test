@@ -40,11 +40,11 @@ with right:
 st.header("IT-Kompetenzen", anchor=False, divider="blue")
 
 st.markdown("""
-            - 💻Webentwicklung: Grundkenntnisse in HTML, CSS und Python
-            - 💻Programmierung: Websiten erstellen, basic tools kennen
-            - 💻Office-Apps: guter Umgang mit Microsoft Word, Excel und PowerPoint
-            - 💻Eigene Projekte: Eigene Websiten erstellen, programiersprachen ausprobieren
-            - 💻Schulprojekte: Präsentationen erstellen, Streamlit benützen
+            - 💻Webentwicklung: Grundkenntnisse in HTML, CSS und Python.
+            - 💻Programmierung: Websiten erstellen, basic tools kennen.
+            - 💻Office-Apps: guter Umgang mit Microsoft Word, Excel und PowerPoint.
+            - 💻Eigene Projekte: Eigene Websiten erstellen, programiersprachen ausprobieren.
+            - 💻Schulprojekte: Präsentationen erstellen, Streamlit benützen.
             """,unsafe_allow_html=True)
 
 st.header("Arbeitserfahrung", anchor=False, divider="blue")
@@ -56,15 +56,15 @@ st.markdown("""
 st.header("Zusätzliche Qualifikationen", anchor=False, divider="blue")
 
 st.markdown("""
-            - 🌟Schnelle Auffassungsgabe für neue Softwareanwendungen und Technologien
-            - 🌟Großes Interesse an der kontinuierlichen Weiterentwicklung im IT-Bereich
-            - 🌟Teamfähigkeit und Kommunikationsstärke bei gemeinsamen Coding-Projekten
+            - 🌟Schnelle Auffassungsgabe für neue Softwareanwendungen und Technologien.
+            - 🌟Großes Interesse an der kontinuierlichen Weiterentwicklung im IT-Bereich.
+            - 🌟Teamfähigkeit und Kommunikationsstärke bei gemeinsamen Coding-Projekten.
         """, unsafe_allow_html=True)
 
 st.header("Interessen und Hobbys", anchor=False, divider="blue")
 
 st.markdown("""
-            - ⚽ Fußball: In meiner Freitzeit
-            - 🏀 Basketball: In meiner Freitzeit
-            - 🎮 Video Spiele: In meiner Freitzeit
+            - ⚽ Fußball: In meiner Freitzeit.
+            - 🏀 Basketball: In meiner Freitzeit.
+            - 🎮 Video Spiele: In meiner Freitzeit.
          """,unsafe_allow_html=True)
